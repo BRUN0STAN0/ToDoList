@@ -1,0 +1,83 @@
+body {
+    background: linear-gradient(110deg, rgb(103, 103, 103) 40%, rgb(152, 152, 152) 61%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    background-color: rgb(217, 217, 217);
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px white;
+    outline:rgb(227, 227, 227) solid 3px;
+    position: absolute;
+    overflow-y: scroll;
+}
+
+#title {
+    position: absolute;
+    right: 25%;
+    left: 25%;
+    padding-top: 7px;
+}
+
+#input {
+    position: absolute;
+    left: 5%;
+    width: 355px;
+}
+input {
+    width: 325px;
+    height: 30px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    padding: 0px;
+}
+
+#ok {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+#list-task {
+    padding-inline: 20px;
+}
+
+.number {
+    font-weight: 900;
+    cursor: pointer;
+
+}
+
+.clear {
+    position: absolute;
+    right: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.del {
+    text-decoration: line-through;
+}
+
+/* SCROLLBAR */
+::-webkit-scrollbar {
+    width: 2px;
+}
+::-webkit-scrollbar-track {
+    background: #d6d6d6; 
+  }
+::-webkit-scrollbar-thumb {
+    background: white; 
+}
